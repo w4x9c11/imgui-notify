@@ -73,5 +73,5 @@ init();
 render();
 ```
 
-# 示例 图片
-product_video: '[https://www.youtube-nocookie.com/embed/URL](https://www.bilibili.com/video/BV1eBU8YuEqX)'
+# 示例 视频
+product_video: 'https://www.bilibili.com/video/BV1eBU8YuEqX'
