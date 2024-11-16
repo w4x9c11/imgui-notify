@@ -25,37 +25,31 @@ void render()
         if (ImGui::Button("None"))
         {
             ImGui::InsertNotification({ ImGuiToastType_None, 3000, "Hello World:)" });
-            console.AddLog("None Button Success log !");
         }
         ImGui::SameLine();
         if (ImGui::Button("Success"))
         {
             ImGui::InsertNotification({ ImGuiToastType_Success, 3000, "Hello World! This is a success! %s", "We can also format here:)" });
-            console.AddLog("Success Button Success log !");
         }
         ImGui::SameLine();
         if (ImGui::Button("Warning"))
         {
             ImGui::InsertNotification({ ImGuiToastType_Warning, 3000, "Hello World! This is a warning!" });
-            console.AddLog("Warning Button Success log !");        
         }
         ImGui::SameLine();
         if (ImGui::Button("Error"))
         {
             ImGui::InsertNotification({ ImGuiToastType_Error, 3000, "Hello World! This is an error!" });
-            console.AddLog("Error Button Success log !");
         }
         ImGui::SameLine();
         if (ImGui::Button("Info"))
         {
             ImGui::InsertNotification({ ImGuiToastType_Info, 3000, "Hello World! This is an info!" });
-            console.AddLog("Info Button Success log !");
         }
         ImGui::SameLine();
         if (ImGui::Button("Info Long"))
         {
             ImGui::InsertNotification({ ImGuiToastType_Info, 3000, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation" });
-            console.AddLog("Info Long Button Success log !");
         }
     ImGui::End();
 
